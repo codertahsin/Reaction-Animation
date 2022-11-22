@@ -17,6 +17,7 @@ const ReactionWrapper = styled.div`
   &:hover {
     transform: scale(1.4);
     transition: 0.2s;
+    background-color: black;
   }
 
   &:after {
@@ -28,7 +29,7 @@ const ReactionWrapper = styled.div`
     
     padding: 5px;
     font-size: 12px;
-    background-color: white;
+    background-color: black;
     color: #606770;
     border-radius: 5px;
     text-transform: capitalize;
